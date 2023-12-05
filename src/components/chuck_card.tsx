@@ -4,9 +4,6 @@ import Joke from '../joke';
 
 interface ChuckCardProps {
 	chuckGreeting:string,
-	whalesSaved:number,
-	roundHouseKicks:number,
-	jokes:Array<Joke>,
 }
 
 const ChuckCard: React.FC<ChuckCardProps> = ({chuckGreeting}) => {
