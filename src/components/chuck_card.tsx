@@ -1,6 +1,5 @@
 // 💡 You can import assets like images directly and use them in your components:
 import ChuckImage from '../assets/chuck_norris.jpg';
-import Joke from '../joke';
 
 interface ChuckCardProps {
 	chuckGreeting:string,
