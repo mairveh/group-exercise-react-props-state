@@ -38,7 +38,6 @@ function App() {
 						roundHouseKicks={roundHouseKicks} />
 
 			<h2>Jokes: </h2> <ChuckJoke chuckJokes={jokes} /> 
-
 		</div>
 	);
 }

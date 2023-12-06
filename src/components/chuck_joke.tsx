@@ -5,8 +5,7 @@ interface ChuckJokeProps {
 }
 
 const ChuckJoke: React.FC<ChuckJokeProps> = ({chuckJokes}) => { 
-        const newJokes = [...chuckJokes].map(cJoke => <p key={cJoke.id}>{cJoke.joke}</p>)
-        return <>{newJokes}</>
+        return <> {chuckJokes.map(cJoke => <p key={cJoke.id}>{cJoke.joke}</p>)}</>
 }
 
 export default ChuckJoke;
