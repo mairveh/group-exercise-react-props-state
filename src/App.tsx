@@ -38,6 +38,8 @@ function App() {
 						roundHouseKicks={roundHouseKicks} />
 
 			<h2>Jokes: </h2> <ChuckJoke chuckJokes={jokes} /> 
+			<h3>Filtered Jokes: </h3>
+				<>{jokes.filter(j=> j.id===3).map(j => <p key={j.id}>{j.joke}</p>)}</>
 		</div>
 	);
 }
