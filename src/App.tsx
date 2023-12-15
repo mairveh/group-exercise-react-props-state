@@ -3,7 +3,7 @@ import { useState } from 'react';
 import ChuckCard from './components/chuck_card';
 import ChuckInfo from './components/chuck_info';
 import Joke from './joke';
-import ChuckJoke from './components/chuck_joke';
+import ChuckJoke from './components/chuck_jokes';
 
 function App() {
 
