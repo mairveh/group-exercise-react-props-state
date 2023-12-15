@@ -1,10 +1,10 @@
 import Joke from "../joke";
 
-interface ChuckJokeProps {
+interface ChuckJokesProps {
   chuckJokes: Array<Joke>;
 }
 
-const ChuckJoke: React.FC<ChuckJokeProps> = ({chuckJokes}) => { 
+const ChuckJoke: React.FC<ChuckJokesProps> = ({chuckJokes}) => { 
         return <> {chuckJokes.map(cJoke => <p key={cJoke.id}>{cJoke.joke}</p>)}</>
 }
 
